@@ -1,0 +1,192 @@
+html{
+	background-color:#819FC5;
+}
+
+.header{
+	
+	position:relative;
+	text-align:center;
+	
+}
+
+#backgroundIMG{
+	
+	height:auto;
+	width:100%;
+	
+	
+}
+
+#title{
+	font-family: Arial;
+	color:#f0f0f0;
+	font-size:50px;
+	
+	
+	position:absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+#icon{
+	height:80px;
+	width:80px;
+	position:absolute;
+	
+	left:10px;
+	top:5px;
+	
+}
+
+.nav{
+	align-items: center;
+	padding:10px;
+	text-align: center;
+	font-family:arial;
+
+}
+
+#home{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+	transition: font-size 0.3s ease;
+
+}
+
+#home:hover{
+	font-size:28px;
+	
+}
+
+#info{
+	margin-left:200px;
+	color:white;
+	text-decoration:none;
+	font-size:25px;
+	transition: font-size 0.3s ease;
+}
+
+#info:hover{
+	font-size:28px;
+}
+
+#schedule{
+	color:white;
+	text-decoration:none;
+	margin-left:200px;
+	font-size: 25px;
+	transition: font-size 0.3s ease;
+}
+
+#schedule:hover{
+	font-size:27px;
+}
+
+#trains{
+	color:white;
+	text-decoration:none;
+	margin-left:200px;
+	font-size: 25px;
+	transition: font-size 0.3s ease;
+}
+
+#trains:hover{
+	font-size:27px;
+}
+
+
+#search{
+	border:solid 2px;
+	display:flex;
+	overflow-x:auto;
+	overflow-y:hidden;
+}
+
+.buttons{
+	margin:4px;
+	
+}
+
+.buttons:hover{
+	background: rgba(231, 224, 224, 0.5);
+}
+
+.mainBody{
+	display:flex;
+}
+
+#leftBody{
+	margin:10px;
+	height:700px;
+	width:100%;
+	padding:10px;
+	flex:1;
+	overflow-y:scroll;
+}
+
+#bound{
+	font-family: arial;
+	font-size: 30px;
+	color:#f0f0f0;
+	text-align: center;
+}
+
+.lineMap{
+	font-family: arial;
+	font-size:20px;
+	display:flex;
+	margin:4px;
+
+	align-items: center;
+	text-align: left;
+
+}
+
+#stop{
+	background-color:#f0f0f0;
+	padding-left:15px;
+	border-radius: 15px;
+	padding:20px;	
+	width:100%;
+	
+}
+
+#stop:active{
+	background: rgba(231, 224, 224, 0.5);
+}
+
+#rightBody{
+	height:auto;
+	width:100%;
+	
+	padding:10px;
+	flex:2;
+}
+
+#rightBody p{
+	font-family: arial;
+	color:#f0f0f0;
+	font-size: 30px;
+}
+
+#rightBody img{
+	margin:5px;
+}
+
+#rightBody h1{
+	font-family: arial;
+	color:#f0f0f0;
+}
+
+
+
+
+.footer{
+	margin-top: 30px;
+	font-family: arial;
+	color:#f0f0f0;
+	font-size: 10px;
+}
